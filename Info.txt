@@ -1,0 +1,35 @@
+Simulation de système solaire et d'interaction gravitationnelle.
+La simulation se lance à partir du main, avec des paramètres par défaut, modifiable
+dans le fichier constant.
+
+Taille de l'écran (largeur, hauteur) = 1200, 780
+Nombre de planètes générées de base = 0
+Nombre d'astéroid générés de base = 200
+Limitation de la vitesse max = 1000
+Le rayon dans lequel la gravité s'applique = 0 (si 0, s'applique quelle que soit la distance)
+
+G est la constante gravitationnelle, MAX_MASS et MIN_MASS définit la plage de valeur pour la masse
+des planètes générées  
+
+
+Interaction possible:
+   -         Echap           : Quitter
+   -          "e"            : Affiche/Cache la vitesse des planètes
+   -          "t"            : Affiche/Cache le vecteur vitesse des planètes
+   -          "r"            : Affiche/Cache (si différent de 0) le rayon d'action autour des planètes
+   -          "p"            : Met la simulation sur pause
+   - Flèches directionnelles : Déplacer la caméra sur la map
+   -         Suppr           : Supprimer la dernière planète créait
+
+Player:
+   - "z", "q", "d" : Déplacer le player
+   -     Espace    : Lock/Delock la caméra du player
+
+Création de planète:
+   -    Clic gauche     : Créer une planète
+   - "z", "q", "s", "d" : Changer l'orientation et la vitesse de départ
+   -   "1", "2", "3"    : Changer la taille de départ
+   -    Right Shift     : Maintenir pour être plus précis
+   -       Entrer       : Valider
+
+ 

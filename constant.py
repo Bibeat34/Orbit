@@ -1,0 +1,8 @@
+WIDTH, HEIGHT = 1200, 780
+G = 6.67430e-11  # Universal gravitational constant
+MAX_MASS = 1*(10**22)
+MIN_MASS =  1*(10**20)
+NUM_PLANETS = 0
+NUM_ASTEROID = 200
+MAX_SPEED = 1000
+RAYON_ACTION = 0 
